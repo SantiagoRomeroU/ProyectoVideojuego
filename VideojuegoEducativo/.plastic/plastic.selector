@@ -1,0 +1,4 @@
+repository "VideojuegoEducativo/VideojuegoEducativo@4674192225565@cloud"
+  path "/"
+    br "/main"
+    co "/main"
