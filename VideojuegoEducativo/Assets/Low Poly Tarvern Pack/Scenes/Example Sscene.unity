@@ -4367,7 +4367,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::movimiento
   velocidad: 15
-  rotacion: 2000
+  rotacion: 200
 --- !u!1 &870403542
 GameObject:
   m_ObjectHideFlags: 0
