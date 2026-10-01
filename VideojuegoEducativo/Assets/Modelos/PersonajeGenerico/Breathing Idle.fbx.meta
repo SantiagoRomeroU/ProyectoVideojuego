@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3d03b44f150022246bcf15c1550c3921
+guid: e7ee13c9f0f49234f869bdc458f8bf40
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -31,11 +31,11 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: caminar
+      name: quieto
       takeName: mixamo.com
-      internalID: 4061839508520268033
+      internalID: -203655887218126122
       firstFrame: 0
-      lastFrame: 28
+      lastFrame: 238
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -43,9 +43,9 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 1
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
       loopBlendPositionXZ: 1
       keepOriginalOrientation: 0
       keepOriginalPositionY: 1
