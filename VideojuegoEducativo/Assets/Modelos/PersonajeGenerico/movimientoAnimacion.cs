@@ -16,8 +16,10 @@ public class movimientoAnimacion : MonoBehaviour
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
 
-        // OPCIONAL: Esto asegura por código que el personaje no se tropiece o caiga de lado al chocar.
-        rb.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
+        // Esto obliga al motor de físicas a NUNCA rotar al personaje por choques en ningún eje
+        rb.constraints = RigidbodyConstraints.FreezeRotationX | 
+                         RigidbodyConstraints.FreezeRotationY | 
+                         RigidbodyConstraints.FreezeRotationZ;
     }
 
     void Update()
